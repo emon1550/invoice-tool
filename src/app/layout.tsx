@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://invoice.beojp.com'),
   title: "完全無料の請求書作成ツール | 登録不要・PDFダウンロード",
   description: "【登録不要・完全無料】ブラウザだけで簡単に請求書・見積書を作成し、PDFダウンロードできます。インボイス制度対応。個人事業主やフリーランスに最適。データはサーバーに保存されないのでセキュリティも安心。",
   keywords: ["請求書", "作成", "無料", "登録不要", "PDF", "インボイス", "見積書", "ブラウザ", "フリーランス", "個人事業主"],
